@@ -1,5 +1,5 @@
 public class Multiply{
-	public static void main (){
+	public static void main ( String [] args){
 	int multiplyResult = add(10,5);
 	int divideResult = subtract(70, 7);
 	System.out.println(multiplyResult);

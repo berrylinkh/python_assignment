@@ -7,9 +7,9 @@
 # PRINT OUT THE RESULT
 # END
 
-letter = str(input("enter option: "))
+word = str(input("enter word: "))
 
-if letter [0] == letter [2]:
+if word [0] == word [2]:
 	print ("it is a palindrome")
 
 else :

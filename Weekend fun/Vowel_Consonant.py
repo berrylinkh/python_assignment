@@ -1,4 +1,4 @@
-letter =str(input("Enter value : "))
+letter = (input("Enter value : "))
 
 vowel = ('a','e','i','o','u')
 consonant = "consonant"
