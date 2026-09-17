@@ -1,0 +1,25 @@
+
+
+
+import random
+
+def learning_the_multiplication_table ():
+
+    return random.randint (0,9),random.randint (0,9)
+
+def do_the_random_multiplication ():
+    
+    number_one, number_two = learning_the_multiplication_table()
+    multiplication = number_one * number_two
+    result = number_one * number_two
+
+   
+    while (True):
+        user_response = input(f"How much is {number_one} * {number_two}?")
+        if int(user_response) == result:
+                print("very good")
+                break;
+
+        else:
+                print("No,please try again")
+print(do_the_random_multiplication ())
